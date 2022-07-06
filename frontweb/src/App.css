@@ -1,21 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 * {
-  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-  margin-bottom: 0;
+:root {
+  --light-color: #e5e5e5;
+  --white-color: #ffffff;
+  --blue-color: #334ac3;
 }
 
-a,
-a:hover {
-  text-decoration: none;
-  color: unset;
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: var(--light-color);
+}
+
+.app-container {
+  padding: 0;
+}
+
+.base-card {
+  background: var(--white-color);
+  border-radius: 5px;
 }
