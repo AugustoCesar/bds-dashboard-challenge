@@ -1,0 +1,64 @@
+.pie-chart-container {
+  margin: 10px;
+  padding: 40px 15px 60px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.value-card h3 {
+  font-size: 36px;
+  color: var(--blue-color);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.value-card span {
+  font-size: 18px;
+  color: var(--grey-color);
+}
+
+.pie-chart-card {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.apexcharts-legend.apexcharts-align-center {
+  flex-direction: column;
+  align-items: center;
+  color: var(--grey-color);
+}
+
+@media (min-width: 576px) {
+  .pie-chart-container {
+    margin: 40px;
+    padding: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pie-chart-container {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .value-card {
+    justify-items: center;
+    width: 50%;
+    align-self: center;
+  }
+
+  .pie-chart-card {
+    margin: 0;
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .pie-chart-container {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}

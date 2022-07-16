@@ -16,6 +16,7 @@ body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
   background-color: var(--light-color);
+  min-width: 300px;
 }
 
 .app-container {
