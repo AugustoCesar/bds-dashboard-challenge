@@ -9,6 +9,8 @@ type Props = {
 };
 
 function PieChartCard({ labels = [], name, series = [] }: Props) {
+
+  
   return (
     <div className="pie-chart-card base-card">
       <ReactApexChart
